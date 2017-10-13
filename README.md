@@ -1,4 +1,4 @@
 aqua_note
 =========
 
-A Symfony project created on October 6, 2017, 10:39 pm.
+A project to learn Symfony 3 with KNP University.
