@@ -34,8 +34,7 @@
 
     <script type="text/babel">
 
-        // var notesUrl = '('genus_show_notes', {'genusName': name})';
-        var notesUrl = 'http://localhost/Documents/aqua_note/web/app_dev.php/genus/octopus/notes';
+        var notesUrl = "{{ absolute_url(path('genus_show_notes', {'genusName': name})) }}";
 
         ReactDOM.render(
             <NoteSection url={notesUrl} />,
